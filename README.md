@@ -29,6 +29,23 @@
   - Copy Markdown
   - Reset
 
+## ใช้งานออนไลน์
+
+https://chanachai-tar.github.io/system-blueprint/
+
+Deploy อัตโนมัติด้วย GitHub Actions ทุกครั้งที่ push เข้า `main` (ดู `.github/workflows/deploy.yml`)
+
+## ฟีเจอร์
+
+- บันทึกอัตโนมัติในเบราว์เซอร์ (localStorage) ปิดแล้วเปิดใหม่ข้อมูลไม่หาย
+- บันทึก / นำเข้าโปรเจกต์เป็นไฟล์ `.json` และดาวน์โหลด Specification เป็น `.md`
+- พิมพ์ / บันทึกเป็น PDF
+- เลือกรูปแบบ Prompt สำหรับ AI: Specification, SRS, ER Diagram (PlantUML), OpenAPI, แตกงาน Task / Sprint
+- Template: Web App, ERP, Mobile App, E-commerce, ระบบจองคิว, Dashboard / BI
+- ค้นหาตัวเลือกใน Step 2–4
+- ตรวจช่องบังคับ (ชื่อระบบ, คำอธิบาย) และยืนยันก่อนล้างข้อมูล
+- รองรับ Dark mode และมือถือ
+
 ## วิธีรันบน Windows / macOS / Linux
 
 ### 1. ติดตั้ง Node.js
